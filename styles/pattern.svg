@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="200" height="200" fill="#f8f9fa"/>
+  
+  <!-- Símbolos repetidos -->
+  <text x="10" y="20" font-family="monospace" font-size="12" fill="#adb5bd">&lt;div&gt;</text>
+  <text x="120" y="35" font-family="monospace" font-size="12" fill="#ced4da">{ }</text>
+  <text x="30" y="60" font-family="monospace" font-size="12" fill="#adb5bd">&lt;/&gt;</text>
+  <text x="140" y="75" font-family="monospace" font-size="12" fill="#ced4da">/* */</text>
+  <text x="50" y="100" font-family="monospace" font-size="12" fill="#adb5bd">#id</text>
+  <text x="160" y="115" font-family="monospace" font-size="12" fill="#ced4da">.class</text>
+  <text x="70" y="140" font-family="monospace" font-size="12" fill="#adb5bd">@media</text>
+  <text x="10" y="165" font-family="monospace" font-size="12" fill="#ced4da">console.log()</text>
+  <text x="130" y="180" font-family="monospace" font-size="12" fill="#adb5bd">function()</text>
+  
+  <!-- Repetir o padrão -->
+  <pattern id="devPattern" patternUnits="userSpaceOnUse" width="200" height="200">
+    <use href="#symbols"/>
+  </pattern>
+</svg>
